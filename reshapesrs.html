@@ -1,0 +1,340 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The other one series</title>
+  <style>
+
+.logo-card {
+  background: #fff;
+  padding: 30px 50px;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+ 
+.logo-card:hover {
+  transform: scale(1.05);
+}
+
+.logo-img {
+  width: 350px; 
+  display: block;
+}
+
+.figur {
+  position: absolute;
+  top: -200px;
+  width: 120px;
+  opacity: 0.7; 
+  pointer-events: none; 
+}
+
+.fall {
+  animation: fallRotate 5s linear infinite;
+}
+
+@keyframes fallRotate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(110vh) rotate(360deg);
+    opacity: 0;
+  }
+}
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f7f3ff;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2.5em;
+      color: #5c3aff;
+      margin-top: 30px;
+      text-shadow: 2px 2px #d0c6ff;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 25px;
+      padding: 40px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .figurine {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .figurine img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+
+    .figurine h3 {
+      margin: 10px 0;
+      font-size: 1.2em;
+      color: #4b3cb3;
+    }
+
+.hirono-section {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.hirono-section img {
+  width: 350px;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+.hirono-text {
+  flex: 1;
+}
+
+.hirono-text h2 {
+  color: #4b3cb3;
+  margin-bottom: 10px;
+}
+
+.hirono-text p {
+  line-height: 1.6;
+  color: #444;
+}
+
+
+  </style>
+</head>
+<body>
+
+
+<div class="title-box">
+  <h1>Reshape Series</h1>
+</div>
+
+<style>
+  .title-box {
+    background: linear-gradient(135deg, #ffe8f0, #e0f7ff);
+    border: 3px solid #ffb6c1;
+    border-radius: 20px;
+    padding: 20px 40px;
+    text-align: center;
+    width: fit-content;
+    margin: 50px auto;
+    box-shadow: 0 4px 12px rgba(255, 182, 193, 0.3);
+  }
+
+.title-box h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 56px;     
+  font-weight: 700;     
+  color: #333;
+  letter-spacing: 2px;  
+  text-shadow: 2px 2px 6px rgba(255, 182, 193, 0.5);
+  margin: 0;
+}
+
+.text-box {
+  max-width: 520px;
+  margin-left: 80px;
+  text-align: left;   
+}
+
+.text-box h1 {
+  font-size: 52px;
+  margin-bottom: 8px;
+  color: #333;
+  text-align: left;   
+}
+
+.mid-title {
+  font-size: 24px;
+  font-style: italic;
+  margin-bottom: 18px;
+  color: #333;
+}
+
+.text-box p {
+  font-size: 18px;     
+  line-height: 1.8;
+}
+
+
+</style>
+
+ <div class="container">
+  <img src="paradise_lost-removebg-preview.png" class="figur fall" style="left: 15%; animation-delay: 1s;">
+  <img src="puppet-removebg-preview.png" class="figur fall" style="left: 80%; animation-delay: 0s;">
+</div>
+
+
+
+<div class="hirono-section">
+  <img src="drowning-removebg-preview.png" alt="Hirono">
+
+  <div class="text-box">
+    <h1>Drowning</h1>
+    <h2 class="mid-title">Overwhelmed By Emotions</h2>
+    <p>
+ This figure portrays Hirono submerged in cascading paint, symbolizing the sensation of being engulfed by overwhelming emotions. It reflects the struggle 
+ to maintain one's identity amidst external pressures.
+    </p>
+  </div>
+</div>
+
+<div class="hirono-section">
+  <img src="paradise_lost-removebg-preview.png" alt="Hirono">
+
+  <div class="text-box">
+    <h1>Paradise Lost</h1>
+    <h2 class="mid-title">Echoes of The Past</h2>
+    <p>
+    Representing a once-vibrant statue now weathered and forgotten, Hirono holds a key, suggesting
+     the potential to unlock and revive lost aspects of oneself or forgotten dreams.
+    </p>
+  </div>
+</div>
+
+
+<div class="hirono-section">
+  <img src="healing-removebg-preview.png" alt="Hirono">
+
+  <div class="text-box">
+    <h1>Healing</h1>
+    <h2 class="mid-title">Restoration and Renewal</h2>
+    <p>
+Portrayed as a patched-up woolen doll, this figure emphasizes the ongoing process of self-repair. It serves as a reminder that 
+healing is a journey, with scars standing as testaments to one's resilience.
+    </p>
+  </div>
+</div>
+
+<div class="hirono-section">
+  <img src="woodcarving-removebg-preview.png" alt="Hirono">
+
+  <div class="text-box">
+    <h1>Woodcarving</h1>
+    <h2 class="mid-title">Strength Through Adversity</h2>
+    <p>
+Depicted as a tree trunk bearing intricate carvings, this figure represents the indelible marks life imprints on us. Despite 
+a rugged exterior, new buds emerge, signifying growth and resilience born from hardship.
+</p>
+  </div>
+</div>
+
+
+<div class="hirono-section">
+  <img src="parasite-removebg-preview.png" alt="Hirono">
+
+  <div class="text-box">
+    <h1>Parasite</h1>
+    <h2 class="mid-title">Nurturing Potential</h2>
+    <p>
+Adorned with mushroom growths, Hirono illustrates how external influences can both hinder and foster development. 
+The presence of fungi suggests that even parasitic challenges can lead to personal growth.
+</p>
+  </div>
+</div>
+
+
+<div class="hirono-section">
+  <img src="voyage-removebg-preview.png" alt="Hirono">
+
+  <div class="text-box">
+    <h1>Voyage</h1>
+    <h2 class="mid-title">Aspiration Beyond Boundaries</h2>
+    <p>
+Hirono is seated in a makeshift cardboard rocket labeled "space junk," symbolizing ambitious dreams 
+and the courage to embark on uncertain journeys, even when success seems improbable.
+</p>
+  </div>
+</div>
+
+<div class="hirono-section">
+  <img src="fading-removebg-preview.png" alt="Hirono">
+
+  <div class="text-box">
+    <h1>Fading</h1>
+    <h2 class="mid-title">Embracing Impermanence</h2>
+    <p>
+This figure depicts Hirono gradually becoming translucent, reflecting the transient nature 
+of existence. It encourages acceptance of change and finding beauty in impermanence.
+
+</p>
+  </div>
+</div>
+
+<div class="hirono-section">
+  <img src="costume-removebg-preview.png" alt="Hirono">
+
+  <div class="text-box">
+    <h1>Costume</h1>
+    <h2 class="mid-title">Hidden Aunthencity</h2>
+    <p>
+Hirono appears as an unworn leather jacket on a hanger, symbolizing the
+ facades we present and the facets of our identity that remain unexplored or concealed.
+</p>
+  </div>
+</div>
+
+
+<div class="hirono-section">
+  <img src="burst-removebg-preview.png" alt="Hirono">
+
+  <div class="text-box">
+    <h1>Burst</h1>
+    <h2 class="mid-title">-Contained Potential</h2>
+    <p>
+Depicted as a balloon on the verge of bursting, this figure signifies suppressed
+ emotions or ideas ready to emerge, highlighting the tension between restraint and expression.
+</p>
+  </div>
+</div>
+
+
+<div class="hirono-section">
+  <img src="puppet-removebg-preview.png" alt="Hirono">
+
+  <div class="text-box">
+     <h3 class="mid-title">(secret)</h3>
+    <h1>Puppet</h1>
+    <h2 class="mid-title">Assembled Identity</h2>
+    <p>
+As the secret figure, Hirono is portrayed as a patchwork puppet, reflecting the composite nature of self. It underscores
+ how diverse experiences and influences stitch together to form a unique identity.
+
+</p>
+  </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
