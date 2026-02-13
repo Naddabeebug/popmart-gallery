@@ -73,6 +73,22 @@ h1 {
   color: inherit;
 }
 
+.card {
+  width: 280px;
+  border-radius: 20px;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 170px;      /* PAKSA TINGGI SAMA */
+  object-fit: cover;  /* Biar gambar rapi, ga gepeng */
+  display: block;
+}
+
 .series {
     display: flex;
     align-items: center;
@@ -97,4 +113,37 @@ h1 {
 .series-text p {
     font-size: 18px;
     line-height: 1.6;
+}
+
+img {
+  width: auto;
+  height: auto;
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+}
+
+/* default overlay mati */
+.overlay {
+    display: none;
+}
+
+/* overlay cuma hidup kalau card coming-soon */
+.cardsoon .overlay {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: rgba(255,255,255,0.7);
+    justify-content: center;
+    align-items: center;
+
+    font-size: 28px;
+    font-weight: bold;
+    color: #444;
 }
